@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".otp.view.MobileNumberActivity">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:fontFamily="sans-serif"
+        android:text="Enter Your Number"
+        android:textColor="@color/dark_text"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtMobileNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/V40dip"
+        android:backgroundTint="@color/whiteShadowd"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="phone"
+        android:maxLength="15"
+        android:text=""
+        android:textColor="@color/textcolorBlack"
+        android:textSize="@dimen/text_size_mobileNumber" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtMobileNo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="We will send OTP On above Number"
+        android:textColor="@color/dark_blue"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvSendOtp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/textView14"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/border_fill_orange"
+        android:gravity="center"
+        android:text="Send OTP"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:text="Once you continue You agree to terms and conditions"
+        android:textColor="@color/dark_text"
+        android:textSize="@dimen/text_size_small" />
+</RelativeLayout>

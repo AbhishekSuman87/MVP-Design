@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:text="Once you continue you agree to our terms and conditions"
+       style="@style/TextViewStyleRegularMidGray12"/>
+
+    <TextView
+        android:id="@+id/login_tv_sign_up"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/border_fill_orange"
+        android:ems="10"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Sign up"
+        style="@style/TextViewStyleRegular14"  />
+
+    <TextView
+        android:id="@+id/textViewUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login_tv_sign_up"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="4dp"
+        android:text="New User?"
+        style="@style/TextViewStyleRegularMidGray14"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewUser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="We keep your data secure"
+        style="@style/TextViewStyleRegularMidGray14"  />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView6"
+        android:layout_alignStart="@+id/tvLoginMobile"
+        android:layout_alignEnd="@+id/tvLoginMobile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="@dimen/V3dip"
+            android:layout_weight="1"
+            android:background="@drawable/border_fill_google"
+            android:drawableStart="@drawable/ic_google_plus"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Google"
+
+            style="@style/TextViewStyleRegular14" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="@dimen/V3dip"
+            android:layout_weight="1"
+            android:background="@drawable/border_fill_facebook"
+            android:drawableStart="@drawable/ic_facebook_logo"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Facebook"
+            style="@style/TextViewStyleRegular14" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:gravity="center"
+        android:text="OR login with"
+        style="@style/TextViewStyleRegularDark14" />
+
+    <TextView
+        android:id="@+id/tvLoginMobile"
+        android:layout_width="250dp"
+        android:layout_height="@dimen/height_button"
+        android:layout_above="@+id/textView9"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/border_fill_orange"
+        android:drawableStart="@drawable/ic_mobile"
+        android:gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Login"
+       style="@style/TextViewStyleRegular14" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="@dimen/thumbNail_large"
+        android:layout_height="@dimen/thumbNail_large"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_heal_logo" />
+
+
+</RelativeLayout>

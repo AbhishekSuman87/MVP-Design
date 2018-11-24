@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5DBCD2</color>
+    <color name="colorPrimaryDark">#5DBCD2</color>
+    <color name="colorAccent">#47b4ca</color>
+
+    <color name="colorPrimaryDark1">#04679f</color>
+    <color name="colorPrimary3rd">#0981b9</color>
+
+    <color name="color_textStart">#004a68</color>
+    <color name="color_textFent">#55abbb</color>
+    <color name="color_pageBaclground">#f2f8f9</color>
+    <color name="color_pageBaclgroundLightBlue">#effafe</color>
+    <color name="color_pageBaclgroundGray">#eff0f5</color>
+    <color name="color_pageBaclgroundGray1">#ecedf1</color>
+    <color name="date_dark">#515065</color>
+    <color name="yellowStart">#ff8d29</color>
+    <color name="orngBtn">#f26824</color>
+    <color name="whiteShadowd">#e2e2e2</color>
+
+    <color name="yellowCenter">#ff7961</color>
+    <color name="yelloEnd">#ff6961</color>
+
+    <!--<color name="white_tag_background">#393838</color>-->
+    <color name="white_tag_background">#f0f0f0</color>
+    <color name="transparant_fent">#68ffffff</color>
+    <color name="color_background">#E9E9EC</color>
+    <color name="green">#7ad62f</color>
+    <color name="green_text">#25bc65</color>
+    <color name="red">#d6272d</color>
+    <color name="dark_text">#414057</color>
+    <color name="blueDark_text">#0a4877</color>
+    <color name="dark_blue">#4f4d75</color>
+
+    <color name="mid_gray">#93929c</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_fent">#7b7b7b</color>
+    <color name="white_fent_text">#a1a0a9</color>
+    <color name="white_view_fent">#e1e1e1</color>
+    <color name="white_fent_border">#d8d8da</color>
+    <color name="white_shadow">#99FFFFFF</color>
+    <color name="gray">#707070</color>
+    <color name="grayDark">#5e5e5e</color>
+    <color name="inactive">#ecf0f3</color>
+    <color name="active">#0a4877</color>
+    <color name="transparant">#00ffffff</color>
+    <color name="textcolorBlue">#2699fb</color>
+    <color name="textcolorBlue_rups">#0471b6</color>
+    <color name="textcolorBlack">#272727</color>
+    <color name="navigationWhite">#fbfbfd</color>
+    <color name="borderWhite">#ebebeb</color>
+
+    <array name="array_dot_active">
+        <item>@color/active</item>
+        <item>@color/active</item>
+        <item>@color/active</item>
+        <item>@color/active</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/inactive</item>
+        <item>@color/inactive</item>
+        <item>@color/inactive</item>
+        <item>@color/inactive</item>
+    </array>
+
+    <color name="sliderbackground">#04679f</color>
+
+   <color name="black_overlay">#66000000</color>
+    <color name="bright_yellow">#ffff00</color>
+    <color name="bright_green">#12c361</color>
+    <color name="bright_red">#ff7070</color>
+</resources>

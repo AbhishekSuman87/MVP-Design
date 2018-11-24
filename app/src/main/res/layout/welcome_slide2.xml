@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcomescreenbackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/textView13">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="@dimen/thumbNail_medium"
+            android:layout_height="@dimen/thumbNail_medium"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/V20dip"
+            app:srcCompat="@drawable/ic_heal_logo" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="65dp"
+            android:layout_height="135dp"
+            android:layout_centerInParent="true"
+            android:elevation="@dimen/cardElvation"
+            app:srcCompat="@drawable/mobile_welcome_icon" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:fontFamily="@font/arial_mt"
+        android:gravity="center"
+        android:text="@string/slide_2_desc"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/dark_text"
+        android:textSize="16sp" />
+</RelativeLayout>

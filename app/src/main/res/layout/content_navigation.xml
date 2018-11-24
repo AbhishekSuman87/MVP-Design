@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".dashboard.view.activity.NavigationActivity"
+    tools:showIn="@layout/app_bar_navigation">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/lnr_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_all">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="@dimen/thumbNail"
+                        android:layout_height="@dimen/thumbNail"
+                        app:srcCompat="@mipmap/ic_launcher_round" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/padding_5"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvAddMain"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding_5"
+                           style="@style/TextViewStyleRegularDark14"
+                            android:text="Hello," />
+
+                        <TextView
+                            android:id="@+id/tvNameMain"
+                            style="@style/TextViewStyleRegularDark14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="Dr. Sheetal Belure" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/padding_5"
+                android:layout_margin="@dimen/padding_15"
+                app:cardBackgroundColor="@color/white">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_10">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        style="@style/TextViewStyleRegularDark14"
+                        android:text="Your Todays Appointment"
+                        />
+
+                    <TextView
+                        android:id="@+id/tvDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/textView"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        style="@style/TextViewStyleRegularDark14"
+                        android:textStyle="bold"
+                        android:text="25/11/2018" />
+
+                    <TextView
+                        android:id="@+id/tvConfrm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/V50dip"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView"
+                        android:textStyle="bold"
+                        style="@style/TextViewStyleRegularDark14"
+                        android:textColor="@color/green_text"
+                        android:textSize="@dimen/text_size_large"
+                        android:text="15" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tvConfrm"
+                        android:layout_alignTop="@+id/tvConfrm"
+                        android:layout_toEndOf="@+id/tvConfrm"
+                        android:layout_toRightOf="@+id/tvConfrm"
+                        android:text="Confirmed"
+                        android:layout_marginLeft="@dimen/padding_5"
+                        android:gravity="center"
+                        style="@style/TextViewStyleRegularDark14"
+                        android:textColor="@color/green_text" />
+
+                    <TextView
+                        android:id="@+id/tvCancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView"
+                        android:layout_marginTop="@dimen/V50dip"
+                        android:layout_toEndOf="@+id/textView4"
+                        android:layout_toRightOf="@+id/textView4"
+                        android:textColor="@color/red"
+                        android:layout_marginLeft="@dimen/padding_30"
+                        style="@style/TextViewStyleRegularDark14"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold"
+                        android:text="3" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/textView4"
+                        android:layout_alignTop="@+id/tvCancel"
+                        android:layout_toEndOf="@+id/tvCancel"
+                        android:layout_toRightOf="@+id/tvCancel"
+                        android:text="Canceled"
+                        android:layout_marginLeft="@dimen/padding_5"
+                        style="@style/TextViewStyleRegularDark14"
+                        android:gravity="center"
+                        android:textColor="@color/red" />
+
+                    <TextView
+                        android:id="@+id/tvShowAll"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/textView15"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/border_fill_orange"
+                        android:gravity="center"
+                        style="@style/TextViewStyleRegularDark14"
+                        android:paddingLeft="@dimen/padding_10"
+                        android:paddingRight="@dimen/padding_10"
+                        android:paddingTop="@dimen/padding_5"
+                        android:paddingBottom="@dimen/padding_5"
+                        android:textColor="@color/white"
+                        android:text="Show All" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/padding_10"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+
+                            <LinearLayout
+                                android:id="@+id/lnr_all_appointment"
+                                android:layout_width="match_parent"
+                                android:paddingTop="30dp"
+                                android:paddingBottom="30dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/imageView42"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="22dp"
+                                    app:srcCompat="@drawable/ic_calendar" />
+
+                                <TextView
+                                    android:id="@+id/textView51"
+                                    style="@style/TextViewStyleRegularDark14"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="All Appointments" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/white_tag_background"
+                            android:layout_marginTop="@dimen/padding_10" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+
+                            <LinearLayout
+                                android:id="@+id/lnr_all_patients"
+                                android:layout_width="match_parent"
+                                android:paddingTop="30dp"
+                                android:paddingBottom="30dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="22dp"
+                                    app:srcCompat="@drawable/ic_file" />
+
+                                <TextView
+                                    style="@style/TextViewStyleRegularDark14"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                   android:gravity="center"
+                                    android:text="All Patient" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/white_tag_background"
+                        android:layout_marginRight="@dimen/padding_10"
+                        android:layout_marginLeft="@dimen/padding_10" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+
+                            <LinearLayout
+                                android:id="@+id/lnr_practice"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:paddingTop="30dp"
+                                android:paddingBottom="30dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="22dp"
+                                    android:src="@drawable/ic_placeholder_on_map_paper_in_perspective" />
+
+                                <TextView
+                                    style="@style/TextViewStyleRegularDark14"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Set Practice" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/white_tag_background"
+                            android:layout_marginBottom="@dimen/padding_10"
+                            />
+                        <LinearLayout
+                            android:id="@+id/lnr_chat"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingTop="30dp"
+                            android:paddingBottom="30dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:orientation="vertical">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/imageView4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="22dp"
+                                    android:src="@drawable/ic_chat" />
+
+                                <TextView
+                                    android:id="@+id/textView512"
+                                    style="@style/TextViewStyleRegularDark14"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                   android:gravity="center"
+                                    android:text="Chat" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/btnBook"
+                        android:layout_width="200dp"
+                        android:layout_height="@dimen/height_button"
+                        android:layout_gravity="center"
+                        android:layout_margin="50dp"
+                        android:background="@drawable/border_fill_orange"
+                        android:gravity="center"
+                        android:visibility="invisible"
+                        android:text="Book an Appointment"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

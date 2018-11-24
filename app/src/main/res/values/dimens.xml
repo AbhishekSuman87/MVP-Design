@@ -1,0 +1,131 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="navigation_vertical_margin">40dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="cardElvation">10dp</dimen>
+
+    <dimen name="padding_all">16dp</dimen>
+    <dimen name="padding_top_textTitle">10dp</dimen>
+    <dimen name="padding_normal">14dp</dimen>
+
+    <dimen name="text_size_title">18dp</dimen>
+
+    <dimen name="V0dip">0dip</dimen>
+    <dimen name="V1dip">1dip</dimen>
+    <dimen name="V2dip">2dip</dimen>
+    <dimen name="V3dip">3dip</dimen>
+    <dimen name="V4dip">4dip</dimen>
+    <dimen name="V5dip">5dip</dimen>
+    <dimen name="V6dip">6dip</dimen>
+    <dimen name="V7dip">7dip</dimen>
+    <dimen name="V8dip">8dip</dimen>
+    <dimen name="V9dip">9dip</dimen>
+    <dimen name="V10dip">10dip</dimen>
+    <dimen name="V12dip">12dip</dimen>
+    <dimen name="V14dip">14dip</dimen>
+    <dimen name="V16dip">16dip</dimen>
+    <dimen name="V18dip">18dip</dimen>
+    <dimen name="V20dip">20dip</dimen>
+    <dimen name="V24dip">24dip</dimen>
+    <dimen name="V28dip">28dip</dimen>
+    <dimen name="V32dip">32dip</dimen>
+    <dimen name="V35dip">35dip</dimen>
+    <dimen name="V40dip">40dip</dimen>
+    <dimen name="V50dip">50dip</dimen>
+    <dimen name="V60dip">60dip</dimen>
+    <dimen name="V70dip">70dip</dimen>
+    <dimen name="V80dip">80dip</dimen>
+    <dimen name="V90dip">90dip</dimen>
+    <dimen name="V100dip">100dip</dimen>
+
+    <dimen name="EditTextHeight">40dip</dimen>
+    <dimen name="EditTextHeightLarge">50dip</dimen>
+    <dimen name="ButtonHeight">40dip</dimen>
+    <dimen name="V140dip">140dip</dimen>
+    <dimen name="V250dip">450dip</dimen>
+    <!--<dimen name="space_normal">10dip</dimen>-->
+
+    <!--padding and margine sizes -->
+    <dimen name="space_zero">0dip</dimen>
+    <dimen name="space_xx_small">2dip</dimen>
+    <dimen name="space_x_small">4dip</dimen>
+    <dimen name="space_small">8dip</dimen>
+    <dimen name="space_normal">12dip</dimen>
+    <dimen name="space_medium">14dip</dimen>
+    <dimen name="space_large">16dip</dimen>
+    <dimen name="space_x_large">20dip</dimen>
+
+    <!--text sizes-->
+    <dimen name="text_size_x_small">9dip</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_normal">14dip</dimen>
+    <dimen name="text_size_medium">16dip</dimen>
+    <dimen name="text_size_large">18dip</dimen>
+    <dimen name="text_size_x1_large">20dip</dimen>
+    <dimen name="text_size_x_large">24dip</dimen>
+    <dimen name="text_size_x_large22">22dip</dimen>
+    <dimen name="text_size_mobileNumber">26sp</dimen>
+
+    <!--icon btn dims-->
+    <dimen name="icon_btn_normal">48dip</dimen>
+    <dimen name="icon_btn_small">36dip</dimen>
+    <dimen name="bottom_menu_height">50dip</dimen>
+    <dimen name="profile_h_w">25dip</dimen>
+    <dimen name="seperator_thickness">1dip</dimen>
+    <dimen name="V45dip">45dip</dimen>
+    <dimen name="profile_card_round">4dip</dimen>
+    <dimen name="profileCardElevation">5dip</dimen>
+    <dimen name="viewPager">250dip</dimen>
+    <dimen name="viewPager230">230dip</dimen>
+
+    <dimen name="estDetailsCircle">35dip</dimen>
+    <dimen name="thumbNail">80dip</dimen>
+    <dimen name="thumbNail_small">53dip</dimen>
+    <dimen name="thumbNail_medium">95dip</dimen>
+    <dimen name="thumbNail_large">122dp</dimen>
+    <dimen name="thumbNail_est_width">118dip</dimen>
+    <dimen name="thumbNail_est_height">133dip</dimen>
+    <dimen name="thumbNail_est_width_menu">88dip</dimen>
+    <dimen name="thumbNail_est_height_menu">67dip</dimen>
+
+    <!--row map fragment layout hight-->
+    <dimen name="hight70">70dip</dimen>
+    <dimen name="menu_group_height">60dip</dimen>
+    <dimen name="design_bottom_navigation_active_icon_size">25dp</dimen>
+
+    <dimen name="placeholder_image">50dp</dimen>
+    <dimen name="placeholder_text_height">8dp</dimen>
+    <dimen name="placeholder_text_titile_height">10dp</dimen>
+    <dimen name="activity_padding_horizontal">16dp</dimen>
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_15">15dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="padding_30">30dp</dimen>
+    <dimen name="name">15dp</dimen>
+    <dimen name="chef">12dp</dimen>
+    <dimen name="timestamp">11dp</dimen>
+    <dimen name="description">15dp</dimen>
+    <dimen name="price">13dp</dimen>
+    <dimen name="activity_padding">16dp</dimen>
+
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">40dp</dimen>
+    <dimen name="img_width_height">90dp</dimen>
+    <dimen name="slide_title">55dp</dimen>
+    <dimen name="slide_desc">16sp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+
+    <dimen name="nearbyHomeHight">113dp</dimen>
+
+    <dimen name="textviewHeight">35dp</dimen>
+
+    <dimen name="height_button">42dp</dimen>
+
+
+</resources>

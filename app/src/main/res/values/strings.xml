@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">H.E.A.L</string>
+    <string name="title_activity_navigation">H.E.A.L</string>
+    <string name="title_book_appointment">Book Appointment</string>
+    <string name="title_all_appointment">All Appointments</string>
+    <string name="title_payment_option">Select Payment Option</string>
+    <string name="title_all_report">All Report</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="notification">Notification</string>
+    <string name="save">Save</string>
+    <string name="location">Location</string>
+
+    <string name="runtime_permissions">Please enable ALL permissions from app settings.</string>
+
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Got it</string>
+    <string name="slide_1">60 ML</string>
+
+    <string name="slide_1_title">your hyperlocal liquor search engine</string>
+    <string name="slide_1_desc">You can see and Manage today\'s  Appointments on phone</string>
+
+    <string name="slide_2_title">find your taste availability</string>
+    <string name="slide_2_desc">You can see and Manage today\'s  Appointments on phone</string>
+
+    <string name="slide_3_title">find trending offers nearby</string>
+    <string name="slide_3_desc">You can see and Manage today\'s  Appointments on phone</string>
+
+    <string name="slide_4_title">Lets spread the word out</string>
+    <string name="slide_4_desc">You can see and Manage today\'s  Appointments on phone</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="doctor">Doctor</string>
+    <string name="fees_rs">Fees(Rs)</string>
+    <string name="timing">Timing</string>
+    <string name="no_timing">No TimeSlot found</string>
+    <string name="details">Details</string>
+    <string name="book">Book</string>
+    <string name="date">Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="select_appointment_date">Select Appointment Date</string>
+    <string name="set_address">Set Address</string>
+    <string name="no_available_day">No Available Day</string>
+    <string name="you_can_book_appointment">You can Book Online Appointment Through \n your Phone </string>
+
+    <string name="menu">MENU</string>
+    <string name="info">INFO</string>
+    <string name="category">CATEGORY</string>
+    <string name="average_cost">AVERAGE COST</string>
+    <string name="payment_type">Payment Type</string>
+    <string name="patient_address">ADDRESS</string>
+    <string name="get_direction">GET DIRECTION</string>
+    <string name="opening_hours">OPENING HOURS</string>
+    <string name="report_error_in_listing">Report Error In Listing</string>
+    <string name="weighted_average_based_on_user_credibility">weighted average based on user credibility</string>
+    <string name="how_did_your_visit_go">How did your visit go?</string>
+    <string name="tell_everyone_about_it">Tell everyone about it !</string>
+    <string name="esta_reviews">estaReviews</string>
+    <string name="get_all_imgs">getallimgs</string>
+    <string name="be_the_first_to_review">No reviews yet\nTell us about your experience</string>
+    <string name="contact_not_available">Contact not available!</string>
+    <string name="authorization">Authorization</string>
+    <string name="please_add_review">Please add review</string>
+    <string name="please_add_review_new">Be polite and friendly. This is a place for love and feedback, not hate. </string>
+    <string name="closed_now">Closed Now</string>
+    <string name="open_now">Open Now</string>
+    <string name="bookmark_successful">Establishment bookmarked successfully</string>
+    <string name="un_bookmark_successful">Establishment unbookmarked successfully</string>
+    <string name="recently_viewed">RECENTLY VIEWED</string>
+    <string name="no_recently_viewed_data_found">No recently viewed data found</string>
+    <string name="no_offers_found">No offers found</string>
+    <string name="no_menus_found">No menus found</string>
+    <string name="no_more_images">More Images</string>
+    <string name="no_bookmark_found">No BookMark found</string>
+    <string name="m_lovs_key">mlovs</string>
+    <string name="esta_resources_key">estaResources</string>
+    <string name="near_by">near_by</string>
+    <string name="submit">Submit</string>
+
+    <string name="no_internet">No internet connection</string>
+
+
+    <string name="ok">OK</string>
+
+    <string name="email_is_missing">Email Is Missing</string>
+    <string name="email_phone_is_missing">Email/Phone Number Is Missing</string>
+    <string name="password_is_missing">Password Is Missing</string>
+    <string name="confirm_password_is_missing">Confirm Password Is Missing</string>
+    <string name="password_not_match">Password and confirm passwords do not match</string>
+    <string name="login_fail">Login Failed</string>
+
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+
+    <string name="email_mobile_number">"Email ID or Mobile Number:</string>
+    <string name="mobile_number">"Mobile Number:</string>
+    <string name="email_id">"Email ID:</string>
+    <string name="password">"Password:</string>
+    <string name="confirm_password">"Confirm Password:</string>
+    <string name="years_of_experience">years of Experience</string>
+    <string name="fees">Fees:</string>
+
+
+    <string name="enter_confirm_password">Enter confirm password</string>
+    <string name="enter_confirm_password_no_match">Entered confirm password is not matched</string>
+    <string name="select_birth_date">Select birthdate</string>
+    <string name="enter_mobile">Enter mobile</string>
+    <string name="enter_valid_mobile">Enter valid mobile</string>
+    <string name="enter_email">Enter email</string>
+    <string name="verify_email">Verify email</string>
+    <string name="verify_mobile">Verify Mobile Number</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="please_fill">Please Fill</string>
+    <string name="enter_valid_email">Enter valid email</string>
+    <string name="enter_valid_otp">Enter valid OTP</string>
+    <string name="password_is_empty">Password is Empty</string>
+
+    <string name="enter_first_name">Enter first name</string>
+    <string name="enter_dob">Enter date of Birth</string>
+    <string name="enter_full_name">Enter Full name</string>
+    <string name="enter_last_name">Enter last name</string>
+    <string name="enter_name">Enter Text</string>
+    <string name="enter_password">Enter password</string>
+    <string name="password_mismatch">Passwords do not match</string>
+    <string name="enter_valid_password">Enter valid password</string>
+    <string name="cancel">Cancel</string>
+    <string name="otplogin"><u>OR login with OTP</u></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="my_profile">My Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_continue">Continue</string>
+    <string name="back">Back</string>
+    <string name="done">Done</string>
+</resources>
